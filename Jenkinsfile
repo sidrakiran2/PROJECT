@@ -23,7 +23,7 @@ pipeline {
     stages {
         stage('Clone Repository') {
             steps {
-                git branch: 'PROB',
+                git branch: 'PROD',
                 credentialsId: 'sidrakiran',
                 url: 'https://github.com/sidrakiran2/PROJECT.git'
             }
